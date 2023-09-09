@@ -16,7 +16,6 @@ function App() {
       <Route path="/contactos" element={<ContactForm />} />
       </Routes>
       </Router>
-
     </div>
   );
 }
