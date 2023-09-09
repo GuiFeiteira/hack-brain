@@ -1,0 +1,6 @@
+video{
+    margin-top: 90px;
+    width: 100%; /* Define a largura como 100% para ajustar ao container */
+    height: auto;
+    object-fit: cover;
+}

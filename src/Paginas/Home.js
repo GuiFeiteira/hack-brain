@@ -9,6 +9,9 @@ function Home() {
         <video src={bkvideo} autoPlay loop muted />
         
       </div>
+      <div>
+        Premios
+      </div>
 
       
     
