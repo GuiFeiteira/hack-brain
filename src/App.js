@@ -4,15 +4,17 @@ import Home from './Paginas/Home';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 
 
+
 function App() {
   return (
     <div className="App">
       <Router>
       <NavBar/>
       <Routes>
-        <Route path='/' exact component={Home} />
+      <Route path="/home" element={<Home />} />
       </Routes>
       </Router>
+
     </div>
   );
 }
