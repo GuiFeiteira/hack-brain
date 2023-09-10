@@ -1,3 +1,16 @@
+.maxcontainer{
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    align-items: center; /* Centraliza as imagens verticalmente */
+    margin-top: 200px;
+}
+
+.maxcontainer p{
+    font-family: 'Nimbus Mono', monospace;
+
+}
+
 .container{
     width: 100%;
     height: 100%;
@@ -9,7 +22,7 @@
     margin-bottom: 150px;
 }
 
-.imagem{
+.container .imagem{
     max-width: 140px; /* Largura máxima das imagens */
     height: auto;
     margin-left: 50px;

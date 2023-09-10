@@ -10,33 +10,33 @@ footer {
     color: white;
     font-family: "Montserrat", Arial, sans-serif;
     overflow: hidden; 
-
-
+ 
 }
-  
+
 .footer-content {
     display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100%;
 }
   
 .footer-content p {
     margin: 0;
     font-size: 14px; 
+
+    
 }
   
+
 .footer-content span {
     font-weight: bold;
 }
   
-.footer-content p + p {
-    margin-left: 700px; 
-}
+
 
 .footer_table {
     width: 100%;
     padding: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 footer img {
@@ -46,6 +46,7 @@ footer img {
     opacity: 0.7;
 
 }
+
 
 
 
