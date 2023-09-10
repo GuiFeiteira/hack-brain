@@ -51,7 +51,7 @@ function Home() {
     <div className="video-container">
       <div className='video'>
         <video src={bkvideo} autoPlay loop muted />
-        <div className='PalavrasV'>
+        <div className='palavrasV'>
           <h2>Hack the Brain</h2>
           <p>
             Dia 28 e 29 de Setembro

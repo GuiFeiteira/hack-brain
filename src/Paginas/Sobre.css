@@ -1,0 +1,13 @@
+.container{
+    margin-top: 200px;
+    display: flex; /* Isso permite que as imagens fiquem alinhadas horizontalmente */
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    align-items: center; /* Centraliza as imagens verticalmente */
+    gap: 510;
+}
+
+.imagem{
+    max-width: 140px; /* Largura máxima das imagens */
+    height: auto;
+    gap: 200;
+}
