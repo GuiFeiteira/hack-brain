@@ -1,5 +1,5 @@
 footer {
-    width: 100%;
+    width: 96,5%;
     height: auto; /* Altura do footer ajustada para exibir o conteúdo */
     background-color: #090021;
     text-align: center;
@@ -10,7 +10,7 @@ footer {
     color: white;
     font-family: "Montserrat", Arial, sans-serif;
     overflow: hidden; 
-    
+
 
 }
   
@@ -39,7 +39,13 @@ footer {
     padding: 20px;
 }
 
+footer img {
+    width: 15%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    opacity: 0.7;
 
+}
 
 
 
