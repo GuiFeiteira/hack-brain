@@ -3,7 +3,7 @@ import NavBar from './Componentes/NavBar';
 import Home from './Paginas/Home';
 import ContactForm from './Paginas/Contacts';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
-import Sobre from './Paginas/Sobre';
+
 
 
 function App() {
@@ -16,6 +16,7 @@ function App() {
       <Route path="/contactos" element={<ContactForm />} />
       <Route path="/sobre"  element={<Sobre/>} />
       </Routes>
+      <Footer/>
       </Router>
     </div>
   );
