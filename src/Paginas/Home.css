@@ -4,3 +4,21 @@ video{
     height: auto;
     object-fit: cover;
 }
+
+.palavrasV{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    
+}
+
+.carrcontainer{
+    background-color: #7a7cee67;
+}
+.titulo{
+    font-size: large;
+}
