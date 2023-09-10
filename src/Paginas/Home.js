@@ -13,7 +13,7 @@ function Home() {
       key: uuidv4(),
       content: (
         <Card imagen={imagem1}
-        titulo="1º Premio"
+        titulo="1º Prêmio"
         paragrafo="Prêmio Monetário no valor de 750€  " />
         
       )
@@ -21,17 +21,17 @@ function Home() {
     {
       key: uuidv4(),
       content: (
-        <Card imagen="https://updates.theme-fusion.com/wp-content/uploads/2017/12/acf_pro.png" 
-        titulo="2º Premio"
-        paragrafo="Lorem ipsum dolor sit amet. Et iste suscipit et blanditiis beatae vel doloremque quibusdam ut natus eveniet in quae tenetur est perferendis assumenda "/>
+        <Card imagen={imagem1} 
+        titulo="2º Prêmio"
+        paragrafo="Lorem ipsum dolor sit amet. "/>
       )
     },
     {
       key: uuidv4(),
       content: (
-        <Card imagen="https://updates.theme-fusion.com/wp-content/uploads/2017/12/layer_slider_plugin_thumb.png" 
-        titulo="3º Premio"
-        paragrafo="Lorem ipsum dolor sit amet. Et iste suscipit et blanditiis beatae vel doloremque quibusdam ut natus eveniet in quae tenetur est perferendis assumenda "/>
+        <Card imagen={imagem1}
+        titulo="3º Prêmio"
+        paragrafo="Lorem ipsum dolor sit amet. "/>
       )
     },
 
@@ -51,9 +51,15 @@ function Home() {
     <div className="video-container">
       <div className='video'>
         <video src={bkvideo} autoPlay loop muted />
+        <div className='PalavrasV'>
+          <h2>Hack the Brain</h2>
+          <p>
+            Dia 28 e 29 de Setembro
+          </p>
+        </div>
         
       </div>
-      <div>
+      <div className='titulo'>
         Premios
       </div>
       <div className="carrcontainer">
