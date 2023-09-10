@@ -1,4 +1,6 @@
-
+.form_container{
+  padding: 100px;
+}
   
   /* Estilo para o contêiner do formulário */
   .form_container div{
