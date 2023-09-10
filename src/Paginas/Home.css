@@ -7,12 +7,15 @@ video{
 
 .palavrasV{
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 400;
+    height: 400;
     top: 0;
+    margin-top: 300px;
+    margin-left: 80px;
     display: flex;
     font-family: 'Courier New', Courier, monospace;
     color: white;
+    flex-direction: column;
     
 }
 

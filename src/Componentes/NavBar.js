@@ -7,7 +7,7 @@ function NavBar() {
   return (
     <div className='navbar'>
       <div className='esquerda'>
-        <Link to="/Home">
+        <Link to="/">
           <img src={logo} alt=''/>
         </Link>
       </div>
