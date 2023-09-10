@@ -25,7 +25,7 @@ const Footer = () => {
             <tbody>
               <tr>
                 <td>
-                medubi@ubi.pt
+                hackthebrain@medubi.pt
                 </td>
                 <td>
                   <img className='imagem' src={imagem1} alt=''></img>

@@ -54,7 +54,11 @@ function Home() {
         <div className='palavrasV'>
           <h1>Hack the Brain</h1>
           <p>
-            Dia 28 e 29 de Setembro
+            Dia 28 e 29 de Setembro 
+          </p>
+          <p>
+          Formato Hibrido
+
           </p>
         </div>
         
