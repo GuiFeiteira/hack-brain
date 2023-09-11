@@ -1,6 +1,3 @@
-@import url("static/fonts/Montserrat/fonts/webfonts/Montserrat-Alt1.css");
-
-
 
 video{
     margin-top: 90px;
@@ -17,7 +14,6 @@ video{
     margin-top: 300px;
     margin-left: 80px;
     display: flex;
-    font-family: ;
     color: white;
     flex-direction: column;
     
