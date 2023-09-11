@@ -20,8 +20,11 @@ video{
 }
 
 .butaoinscrever{
-
+    border: none;
     background-image: linear-gradient(to right, #E241FC, #15D3DF);
+    border-radius: 3px;
+    width: 130px;
+    height: 30px;
 }
 
 
