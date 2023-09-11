@@ -61,3 +61,15 @@
     margin-bottom: 10px;
   }
   
+
+  .form_container {
+    background-image: url('../Recursos/fundocontact.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir toda a div */
+    background-position: center; /* Centraliza a imagem na div */
+    background-repeat: no-repeat; /* Evita que a imagem seja repetida */
+}
+
+
+.form_container {
+  background-color: rgba(122, 124, 238, 0.1);
+}
