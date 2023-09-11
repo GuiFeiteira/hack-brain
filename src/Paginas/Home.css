@@ -1,9 +1,12 @@
 
+
+
 video{
     margin-top: 90px;
     width: 100%; /* Define a largura como 100% para ajustar ao container */
     height: auto;
     object-fit: cover;
+    background-color: #7a7cee67;
 }
 
 .palavrasV{
@@ -20,8 +23,11 @@ video{
 }
 
 .butaoinscrever{
-    border: none;
-    background-image: linear-gradient(to right, #E241FC, #15D3DF);
+    border: aliceblue;
+    font-size: large;
+    color: white;
+    font-weight: 400;
+    background-image: linear-gradient(to right, #e11fff, #15D3DF);
     border-radius: 3px;
     width: 130px;
     height: 30px;

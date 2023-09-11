@@ -57,13 +57,10 @@ function Home() {
             Dia 28 e 29 de Setembro 
           </p>
           <a href="https://forms.gle/LdmGFdQVFGgQtnGK8" target="_blank" rel="noopener noreferrer">
-            <button className='butaoinscrever'>Inscrever!</button>
+            <button className='butaoinscrever'>Inscreve-te!</button>
           </a>
         </div>
         
-      </div>
-      <div className='titulo'>
-        Premios
       </div>
       <div className="carrcontainer">
       <Carousel
