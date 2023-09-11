@@ -1,6 +1,4 @@
 
-
-
 video{
     margin-top: 90px;
     width: 100%; /* Define a largura como 100% para ajustar ao container */
@@ -16,14 +14,13 @@ video{
     margin-top: 300px;
     margin-left: 80px;
     display: flex;
-
     color: white;
     flex-direction: column;
     
 }
 
 .butaoinscrever{
-    
+
     background-image: linear-gradient(to right, #E241FC, #15D3DF);
 }
 
