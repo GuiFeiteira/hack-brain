@@ -19,6 +19,13 @@ video{
     
 }
 
+.butaoinscrever{
+
+    background-image: linear-gradient(to right, #E241FC, #15D3DF);
+}
+
+
+
 .carrcontainer{
     background-color: #7a7cee67;
 }
