@@ -1,3 +1,7 @@
+@import url("static/fonts/Montserrat/fonts/webfonts/Montserrat-Alt1.css");
+
+
+
 video{
     margin-top: 90px;
     width: 100%; /* Define a largura como 100% para ajustar ao container */
@@ -13,7 +17,7 @@ video{
     margin-top: 300px;
     margin-left: 80px;
     display: flex;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: ;
     color: white;
     flex-direction: column;
     
