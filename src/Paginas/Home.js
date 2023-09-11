@@ -56,10 +56,9 @@ function Home() {
           <p>
             Dia 28 e 29 de Setembro 
           </p>
-          <p>
-          Formato Hibrido
-
-          </p>
+          <a href="https://forms.gle/LdmGFdQVFGgQtnGK8" target="_blank" rel="noopener noreferrer">
+            <button className='butaoinscrever'>Click</button>
+          </a>
         </div>
         
       </div>
