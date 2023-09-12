@@ -1,7 +1,50 @@
 import React, { Component } from 'react';
+import emailjs from '@emailjs/browser'
 import './Contacts.css'
 
+
+const EMAILJS_USER_ID = 'RZeqzt3VSaF2tuGyF';
+const EMAILJS_TEMPLATE_ID = 'template_ojreiwr';
+const EMAILJS_SERVICE_ID = 'service_s6c4q3f';
+
 class ContactForm extends Component {
+
+  // Dentro do seu componente ContactForm
+sendEmail = () => {
+  emailjs
+    .send(
+      EMAILJS_SERVICE_ID,
+      EMAILJS_TEMPLATE_ID,
+      {
+        user_nome: this.state.nome,
+        user_email: this.state.email,
+        mensage: this.state.mensagem,
+      },
+      EMAILJS_USER_ID
+    )
+    .then(
+      (response) => {
+        console.log('Email enviado com sucesso!', response);
+        // Aqui você pode adicionar ações após o envio bem-sucedido
+      },
+      (error) => {
+        console.error('Erro ao enviar o email:', error);
+        // Aqui você pode adicionar tratamento de erros, se necessário
+      }
+    );
+};
+
+handleSubmit = (event) => {
+  event.preventDefault();
+  console.log('Formulário enviado');
+  // Validação do formulário
+  // ...
+
+  // Envie o email após a validação
+  this.sendEmail();
+};
+
+
   constructor(props) {
     super(props);
     this.state = {
@@ -16,11 +59,6 @@ class ContactForm extends Component {
     this.setState({ [name]: value });
   };
 
-  handleSubmit = (event) => {
-    event.preventDefault();
-    // Aqui você pode adicionar o código para enviar os dados do formulário para o servidor ou realizar outras ações desejadas
-    console.log(this.state);
-  };
 
   render() {
     return (
