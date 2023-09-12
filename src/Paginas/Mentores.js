@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './Mentores.css'
+import mentor1 from '../Recursos/PedroInacio.jpg'
 
 function Mentores() {
 
@@ -9,16 +10,18 @@ function Mentores() {
 
 
   return (
-    <div className='mentor_card'>
-      <div className='upper_container'>
-        <div className='image_container'>
-          <img src='' alt='' height="100px" width="100px"/>
+    <div className='page_content'>
+      <div className='mentor_card'>
+        <div className='upper_container'>
+          <div className='image_container'>
+            <img src={mentor1} alt='' height="100px" width="100px"/>
+          </div>
         </div>
-      </div>
-      <div className='lower_container'>
-        <h1>{name}</h1> 
-        <h4>{job}</h4>
-        <p>{about}</p>
+        <div className='lower_container'>
+          <h1>{name}</h1> 
+          <h4>{job}</h4>
+          <p>{about}</p>
+        </div>
       </div>
     </div>
   )
