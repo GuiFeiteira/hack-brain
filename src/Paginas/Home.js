@@ -5,7 +5,6 @@ import Carousel from '../Componentes/Carrossel'
 import './Home.css'
 import imagem1 from '../Recursos/banknotes-209104_1280.jpg'
 import bkvideo from '../Recursos/video.mp4'
-import programa from '../Recursos/programação para site.png'
 
 
 function Home() {
@@ -62,9 +61,7 @@ function Home() {
           </a>
         </div>
       </div>
-      <div className='programa'>
-        <img src={programa} alt='' />
-      </div>
+
       <div className="carrcontainer">
       <Carousel
         cards={cards}
