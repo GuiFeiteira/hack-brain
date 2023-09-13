@@ -21,6 +21,10 @@ function Mentores() {
   return (
     <div className='page_content'>
 
+      <div className='mentor_title'>
+        <h1>Mentores</h1>
+      </div>
+
       <div className='tablediv'></div>
 
       <div className='first_line'>
