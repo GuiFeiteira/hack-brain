@@ -10,8 +10,9 @@ import imagem6 from '../Recursos/Amarelo__Cinza.png'
 function Sobre() {
   return (
     <div className='maxcontainer'>
-      <h2>Sobre Nós</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h1>Sobre Nós</h1>
+      <p>O Hack The Brain é uma atividade inovadora que surgiu em colaboração com várias entidades. A Organização pretende com esta atividade promover um espaço de inovação na área da saúde, através do trabalho em equipas multidisciplinares.
+Toda a atividade foi organizada ao maior pormenor de forma a proporcionar a melhor experiência possível a todas as pessoas participantes, através de um painel de mentores de excelência, assim como, com um prémio único.</p>
       <div className='container'>
         <img className='imagem' src={imagem1} alt='' />
         <img className='imagem' src={imagem2} alt='' />

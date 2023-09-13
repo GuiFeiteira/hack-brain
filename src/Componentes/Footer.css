@@ -30,7 +30,10 @@ footer {
 
     
 }
-  
+
+.direitos p{
+    font-size: 18px;
+}
 
 .footer-content span {
     font-weight: bold;
