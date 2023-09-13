@@ -60,7 +60,9 @@ function Home() {
             <button className='butaoinscrever'>Inscreve-te!</button>
           </a>
         </div>
-        
+      </div>
+      <div className='premios'>
+        <h2>Os nossos Prêmios</h2>
       </div>
       <div className="carrcontainer">
       <Carousel
