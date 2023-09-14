@@ -18,7 +18,7 @@ const Footer = () => {
          <table className='footer_table'>
             <thead>
               <tr>
-                <th>Contactos:</th>
+                <th className='letras'>Contactos:</th>
                 <th>
                   <div className='direitos'>
                       <p>&copy; 2023 Direitos Reservados</p>

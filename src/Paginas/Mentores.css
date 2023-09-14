@@ -74,23 +74,46 @@
     margin-bottom: 50px;
 }
 
-.mentor_title {
-    margin-top: 150px;
-    font-size: 2rem;
-    text-align: center;
-}
 
+@media screen and (max-width: 960px) {
 
-@media screen and (max-width: 768px) {
-    .mentor_card {
+    .first_line{
+        margin-top: 0px;
+        display: inline-grid;
         width: 100%;
-        margin: 20px 0;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    .next_line {
+        display: inline-grid;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .last_line {
+        display: inline-grid;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
     }
 
-    /* Adjust styles for the image container */
-    .image_container img {
-        width: 80px;
-        height: 80px;
-        transform: translate(12px, 0);
+
+    .lower_container h1,h4,p {
+        margin: 0;
+        padding: 0;
+        font-size: 1.2em;
     }
+
+    .lower_container p {
+        margin: 1rem;
+        font-family: sans-serif;
+        color: black;
+        font-size: 0.95em;
+        text-align: justify;
+    }
+
 }
