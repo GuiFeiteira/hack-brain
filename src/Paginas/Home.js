@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from "uuid";
 import Card from '../Componentes/Cartao'
 import Carousel from '../Componentes/Carrossel'
 import './Home.css'
-import imagem1 from '../Recursos/banknotes-209104_1280.jpg'
+import imagem1 from '../Recursos//premio.jpg'
 import bkvideo from '../Recursos/video.mp4'
 
 
@@ -13,8 +13,8 @@ function Home() {
       key: uuidv4(),
       content: (
         <Card imagen={imagem1}
-        titulo="1º Prêmio"
-        paragrafo="Prêmio Monetário no valor de 750€  " />
+        titulo="Prémio"
+        paragrafo="Prémio Monetário no valor de 750€ para as duas primeiras equipas  " />
         
       )
     },
@@ -22,16 +22,16 @@ function Home() {
       key: uuidv4(),
       content: (
         <Card imagen={imagem1} 
-        titulo="2º Prêmio"
-        paragrafo="Lorem ipsum dolor sit amet. "/>
+        titulo="Prémio"
+        paragrafo="Prémio Monetário no valor de 750€ para as duas primeiras equipas  "/>
       )
     },
     {
       key: uuidv4(),
       content: (
         <Card imagen={imagem1}
-        titulo="3º Prêmio"
-        paragrafo="Lorem ipsum dolor sit amet. "/>
+        titulo="Prémio"
+        paragrafo="Prémio Monetário no valor de 750€ para as duas primeiras equipas   "/>
       )
     },
 
